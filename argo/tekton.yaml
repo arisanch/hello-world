@@ -13,7 +13,7 @@ spec:
       jsonnet: {}
       recurse: true
     path: tekton
-    repoURL: 'https://github.com/rseip-rh/hello-world.git'
+    repoURL: 'https://github.com/arisanch/hello-world.git'
     targetRevision: HEAD
   syncPolicy:
     automated:
