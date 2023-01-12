@@ -67,7 +67,7 @@ Get token from GitHub. Settings -> Developer Settings -> Personal access tokens 
 `oc describe secret github`
 
 ### Add secret for access to quay
-
+Encrypted password provided by quay is required. Login into quay and go to account settings. Select "generate encrypted CLI password" link.
 Replace <username> and <password> with values from quay.io. Note that `default` in `oc secrets link` command refers to the service account name.
 
 ```
