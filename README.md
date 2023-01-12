@@ -89,7 +89,7 @@ oc project hello-world
 oc get routes
 ```
 
-In GitHub navigate to Settings -> webhooks -> add webhook.
+In the hello-world GitHub project, navigate to Settings -> webhooks -> add webhook.
 
 For `el-hello-world-app`, use the `HOST/PORT` value to create a push webhook. Ensure payload URL is prefixed with `http://` and a trailing slash `/`. Change the content type to `application/json`.
 
