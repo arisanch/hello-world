@@ -77,7 +77,7 @@ oc secrets link default quay-registry --for=pull,mount
 ```
 
 ```
-oc project hello-world
+oc project hello-world-dev
 oc create secret docker-registry quay-registry --docker-server=quay.io --docker-username=<username> --docker-password=<password>
 oc secrets link default quay-registry --for=pull,mount
 ```
