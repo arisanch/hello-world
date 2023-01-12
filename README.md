@@ -48,7 +48,7 @@ Apply the YAML from the [argo](argo/) folder.
 
 ### Validate ArgoCD user interface
 
-Login to OpenShift console. Navigate to Networking -> Routes. Change Project to `openshift-gitops`, be sure to enable "Show default projects". Click the Location link for the `openshift-gitops-server` route. A new browser window appears. Confirm authorization. Confirm that "Applications" shows `dev-hello-world`, `hello-world-tekton`, and `prod-hello-world`.
+Login to OpenShift console. Navigate to Networking -> Routes. Change Project to `openshift-gitops`, be sure to enable "Show default projects". Click the Location link for the `openshift-gitops-server` route. A new browser window appears. Select "Login via OpenShift". Confirm authorization. Confirm that "Applications" shows `dev-hello-world`, `hello-world-tekton`, and `prod-hello-world`.
 
 ## Set up demo pipelines
 
