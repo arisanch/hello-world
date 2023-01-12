@@ -91,9 +91,9 @@ oc get routes
 
 In the hello-world GitHub project, navigate to Settings -> webhooks -> add webhook.
 
-For `el-hello-world-app`, use the `HOST/PORT` value to create a push webhook. Ensure payload URL is prefixed with `http://` and a trailing slash `/`. Change the content type to `application/json`.
+For `el-hello-world-app`, use the `HOST/PORT` value as the payload URL to create a push webhook. Ensure payload URL is prefixed with `http://` and a trailing slash `/`. Change the content type to `application/json`.
 
-For `el-hello-world-test-app`, use the `HOST/PORT` value to create a push webhook. Ensure payload URL is prefixed with `http://` and a trailing slash `/`. Change the content type to `application/json`. Enable ONLY pull request events.
+For `el-hello-world-test-app`, use the `HOST/PORT` value as the payload URL to create a push webhook. Ensure payload URL is prefixed with `http://` and a trailing slash `/`. Change the content type to `application/json`. Enable ONLY pull request events.
 
 TODO - explore use of CLI to create these webhooks
 
